@@ -1,0 +1,24 @@
+form {
+  position: absolute;
+  float: left;
+  padding-left: 10%;
+  overflow: scroll;
+}
+input {
+  border-radius: 10px;
+  border: none;
+  display: block;
+}
+.form-button-holder {
+  float: right;
+  padding-right: 10%;
+}
+button {
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: var(--green5);
+  cursor: pointer;
+}
