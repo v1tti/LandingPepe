@@ -2,6 +2,8 @@ form {
   float: right;
   padding-right: 10%;
   overflow: scroll;
+
+  z-index: 1;
 }
 input {
   border-radius: 10px;
@@ -9,8 +11,9 @@ input {
   display: block;
 }
 .form-button-holder {
-  float: left;
+  display: inline-block;
   padding-left: 10%;
+  padding-bottom: 50px;
 }
 .form-button-holder img {
   border-radius: 10px;
@@ -24,8 +27,7 @@ input {
   text-align: center;
   color: var(--green5);
   cursor: pointer;
-  position: absolute;
-  z-index: 1;
+  position: relative;
 }
 .about-us-submit-button span {
   position: sticky;
