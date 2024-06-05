@@ -12,15 +12,15 @@
   transform: translate(0%, -50%);
   user-select: none;
   position: absolute;
-  left: 5%;
+  left: 2%;
   top: 55%;
   height: 100%;
 }
 #carousel-track > .image {
   display: inline-block;
   margin-left: 1%;
-  width: 10%;
+  width: 20%;
   height: 90%;
-  object-fit: cover;
+  object-fit: cover ;
   object-position: 100% center;
 }
