@@ -1,0 +1,26 @@
+.carousel-container {
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  height: 30dvh;
+  border-radius: 15px;
+  background-color: var(--green4);
+  position: relative;
+}
+#carousel-track {
+  white-space: nowrap;
+  transform: translate(0%, -50%);
+  user-select: none;
+  position: absolute;
+  left: 2%;
+  top: 55%;
+  height: 100%;
+}
+#carousel-track > .image {
+  display: inline-block;
+  margin-left: 1%;
+  width: 20%;
+  height: 90%;
+  object-fit: cover ;
+  object-position: 100% center;
+}
