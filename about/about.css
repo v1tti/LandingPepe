@@ -1,7 +1,6 @@
 form {
-  position: absolute;
-  float: left;
-  padding-left: 10%;
+  float: right;
+  padding-right: 10%;
   overflow: scroll;
 }
 input {
@@ -10,10 +9,14 @@ input {
   display: block;
 }
 .form-button-holder {
-  float: right;
-  padding-right: 10%;
+  float: left;
+  padding-left: 10%;
 }
-button {
+.form-button-holder img {
+  border-radius: 10px;
+  width: 180%;
+}
+.about-us-submit-button {
   background-color: white;
   margin-top: 15px;
   border-radius: 10px;
@@ -21,4 +24,29 @@ button {
   text-align: center;
   color: var(--green5);
   cursor: pointer;
+  position: relative;
 }
+.about-us-submit-button span {
+    position: relative;
+    z-index: 2;
+}
+.about-us-submit-button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 10px;
+    background: var(--green5);
+    transition: all .35s;
+    z-index: 1;
+  }
+  
+  .about-us-submit-button:hover{
+    color: #fff;
+  }
+  
+  .about-us-submit-button:hover:after{
+    width: 100%;
+  }

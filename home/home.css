@@ -1,7 +1,9 @@
 .carousel-container {
   overflow: hidden;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   height: 30dvh;
+  border-radius: 15px;
   background-color: var(--green4);
   position: relative;
 }
