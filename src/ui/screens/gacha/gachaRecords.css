@@ -1,0 +1,17 @@
+.PepeLendaPlusPlus {
+  color: gold;
+}
+.PepeRaroPlusPlus {
+  color: purple;
+}
+.PepeRaro {
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
