@@ -1,5 +1,0 @@
-export { Header } from '../components/header/header'
-export { NewCharacter } from '../components/new-character/newCharacter.jsx'
-export { NewEvent } from '../components/new-event/newEvent.jsx'
-export { Footer } from '../components/footer/footer.jsx'
-export { MainDescription } from '../components/main-description/mainDescription.jsx'
